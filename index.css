@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    list-style-type: none;
+}
+nav{
+    position: absolute;
+    width: 100%;
+}
+nav > div {
+    width: 33%;
+    display: inline-block;
+}
+img {
+    height: 50px;
+}
