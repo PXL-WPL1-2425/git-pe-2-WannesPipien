@@ -1,6 +1,7 @@
 ul {
     display: flex;
     list-style-type: none;
+    font-size: 14pt
 }
 nav{
     position: absolute;
@@ -11,5 +12,5 @@ nav > div {
     display: inline-block;
 }
 img {
-    height: 50px;
+    height: 100px;
 }
