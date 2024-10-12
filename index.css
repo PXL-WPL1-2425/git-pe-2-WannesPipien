@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -18,7 +22,7 @@ img {
 }
 
 a:link.center, a:visited.center, a:active.center, a:hover.center{
-    color: gray;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
@@ -36,4 +40,9 @@ a:link.sign_in, a:visited.sign_in, a:active.sign_in, a:hover.sign_in{
     padding: 0.4em 1em;
     background-color: red;
     width: auto;
+}
+
+.hero_new__video{
+    width: 100%;
+    z-index: -1;
 }
