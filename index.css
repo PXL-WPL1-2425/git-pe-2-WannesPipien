@@ -16,23 +16,24 @@ li{
 img {
     height: 100px;
 }
-a:link {
+
+a:link.center, a:visited.center, a:active.center, a:hover.center{
     color: gray;
     background-color: transparent;
     text-decoration: none;
 }
-a:visited {
-    color: gray;
+
+
+a:link.sign_in, a:visited.sign_in, a:active.sign_in, a:hover.sign_in{
+    color: black;
     background-color: transparent;
     text-decoration: none;
+    font-weight: bold;
 }
-a:hover {
-    color: gray;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:active {
-    color: gray;
-    background-color: transparent;
-    text-decoration: none;
+
+#sign_in{
+    border-radius: 2em;
+    padding: 0.4em 1em;
+    background-color: red;
+    width: auto;
 }
